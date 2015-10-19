@@ -2,7 +2,7 @@ package smartproxy
 
 import (
 	"fmt"
-	"smartproxy/redis"
+	"github.com/dongzerun/smartproxy/redis"
 	"sync"
 
 	log "github.com/ngaut/logging"

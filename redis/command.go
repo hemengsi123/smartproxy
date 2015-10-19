@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dongzerun/smartproxy/util"
 	log "github.com/ngaut/logging"
 	"gopkg.in/bufio.v1"
-	"smartproxy/util"
 )
 
 var (

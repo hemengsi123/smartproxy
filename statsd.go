@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/dongzerun/smartproxy/statsd"
 	log "github.com/ngaut/logging"
-	"smartproxy/statsd"
 )
 
 type Uint64Slice []uint64

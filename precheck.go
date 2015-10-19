@@ -3,8 +3,8 @@ package smartproxy
 import (
 	"errors"
 	"fmt"
+	"github.com/dongzerun/smartproxy/redis"
 	log "github.com/ngaut/logging"
-	"smartproxy/redis"
 	"strings"
 	"time"
 )

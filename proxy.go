@@ -1,11 +1,11 @@
 package smartproxy
 
 import (
+	"github.com/dongzerun/smartproxy/redis"
+	"github.com/dongzerun/smartproxy/util"
 	"net"
 	"reflect"
 	"runtime"
-	"smartproxy/redis"
-	"smartproxy/util"
 	"strings"
 	"sync"
 	"time"

@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
+	proxy "github.com/dongzerun/smartproxy"
+	"github.com/dongzerun/smartproxy/util"
 	log "github.com/ngaut/logging"
-	proxy "smartproxy"
-	"smartproxy/util"
 )
 
 var (

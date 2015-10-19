@@ -2,8 +2,8 @@ package smartproxy
 
 import (
 	"bufio"
+	"github.com/dongzerun/smartproxy/redis"
 	"net"
-	"smartproxy/redis"
 	"strings"
 	"sync/atomic"
 	"time"
