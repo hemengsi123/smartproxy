@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/dongzerun/smartproxy/pkg/gopkg.in/bufio.v1"
+	"github.com/dongzerun/smartproxy/redis/bufio.v1"
 )
 
 var (

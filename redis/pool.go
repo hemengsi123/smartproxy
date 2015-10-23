@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dongzerun/smartproxy/pkg/gopkg.in/bsm/ratelimit.v1"
+	"github.com/dongzerun/smartproxy/redis/bsm/ratelimit.v1"
 	log "github.com/ngaut/logging"
 )
 
