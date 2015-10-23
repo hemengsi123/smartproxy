@@ -23,6 +23,7 @@ Proxy 实现比较简单，复用 Go Redis Driver，封装个网络层。对 Cli
 大家如果有想用的命令，或是实现不对的，随时开 Issue
 
 ## 安装
+Proxy 无状态，所以一般要部署多个
 
 ```
 # go get github.com/dongzerun/smartproxy
