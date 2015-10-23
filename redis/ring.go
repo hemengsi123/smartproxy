@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/dongzerun/smartproxy/redis/internal/consistenthash"
 	log "github.com/ngaut/logging"
-	"gopkg.in/redis.v3/internal/consistenthash"
 )
 
 var (

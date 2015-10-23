@@ -6,7 +6,7 @@ import (
 	"net"
 	"strconv"
 
-	"gopkg.in/bufio.v1"
+	"github.com/dongzerun/smartproxy/pkg/gopkg.in/bufio.v1"
 )
 
 type multiBulkParser func(rd *bufio.Reader, n int64) (interface{}, error)
